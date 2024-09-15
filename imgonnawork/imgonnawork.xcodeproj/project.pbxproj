@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9F63DA82C973B7F00C1E278 /* imgonnaworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F63DA72C973B7F00C1E278 /* imgonnaworkApp.swift */; };
+		F9F63DAA2C973B7F00C1E278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F63DA92C973B7F00C1E278 /* ContentView.swift */; };
+		F9F63DAC2C973B7F00C1E278 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F63DAB2C973B7F00C1E278 /* Item.swift */; };
+		F9F63DAE2C973B7F00C1E278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F63DAD2C973B7F00C1E278 /* Assets.xcassets */; };
+		F9F63DB12C973B7F00C1E278 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F63DB02C973B7F00C1E278 /* Preview Assets.xcassets */; };
+		F9F63DBC2C973B8000C1E278 /* imgonnaworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F63DBB2C973B8000C1E278 /* imgonnaworkTests.swift */; };
+		F9F63DC62C973B8000C1E278 /* imgonnaworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F63DC52C973B8000C1E278 /* imgonnaworkUITests.swift */; };
+		F9F63DC82C973B8000C1E278 /* imgonnaworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F63DC72C973B8000C1E278 /* imgonnaworkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9F63DB82C973B8000C1E278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F63D9C2C973B7F00C1E278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F63DA32C973B7F00C1E278;
+			remoteInfo = imgonnawork;
+		};
+		F9F63DC22C973B8000C1E278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F63D9C2C973B7F00C1E278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F63DA32C973B7F00C1E278;
+			remoteInfo = imgonnawork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9F63DA42C973B7F00C1E278 /* imgonnawork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imgonnawork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F63DA72C973B7F00C1E278 /* imgonnaworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgonnaworkApp.swift; sourceTree = "<group>"; };
+		F9F63DA92C973B7F00C1E278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9F63DAB2C973B7F00C1E278 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F9F63DAD2C973B7F00C1E278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9F63DB02C973B7F00C1E278 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9F63DB22C973B7F00C1E278 /* imgonnawork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = imgonnawork.entitlements; sourceTree = "<group>"; };
+		F9F63DB72C973B8000C1E278 /* imgonnaworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imgonnaworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F63DBB2C973B8000C1E278 /* imgonnaworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgonnaworkTests.swift; sourceTree = "<group>"; };
+		F9F63DC12C973B8000C1E278 /* imgonnaworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imgonnaworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F63DC52C973B8000C1E278 /* imgonnaworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgonnaworkUITests.swift; sourceTree = "<group>"; };
+		F9F63DC72C973B8000C1E278 /* imgonnaworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgonnaworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9F63DA12C973B7F00C1E278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F63DB42C973B8000C1E278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F63DBE2C973B8000C1E278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9F63D9B2C973B7F00C1E278 = {
+			isa = PBXGroup;
+			children = (
+				F9F63DA62C973B7F00C1E278 /* imgonnawork */,
+				F9F63DBA2C973B8000C1E278 /* imgonnaworkTests */,
+				F9F63DC42C973B8000C1E278 /* imgonnaworkUITests */,
+				F9F63DA52C973B7F00C1E278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F63DA52C973B7F00C1E278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F63DA42C973B7F00C1E278 /* imgonnawork.app */,
+				F9F63DB72C973B8000C1E278 /* imgonnaworkTests.xctest */,
+				F9F63DC12C973B8000C1E278 /* imgonnaworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F63DA62C973B7F00C1E278 /* imgonnawork */ = {
+			isa = PBXGroup;
+			children = (
+				F9F63DA72C973B7F00C1E278 /* imgonnaworkApp.swift */,
+				F9F63DA92C973B7F00C1E278 /* ContentView.swift */,
+				F9F63DAB2C973B7F00C1E278 /* Item.swift */,
+				F9F63DAD2C973B7F00C1E278 /* Assets.xcassets */,
+				F9F63DB22C973B7F00C1E278 /* imgonnawork.entitlements */,
+				F9F63DAF2C973B7F00C1E278 /* Preview Content */,
+			);
+			path = imgonnawork;
+			sourceTree = "<group>";
+		};
+		F9F63DAF2C973B7F00C1E278 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F9F63DB02C973B7F00C1E278 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9F63DBA2C973B8000C1E278 /* imgonnaworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F63DBB2C973B8000C1E278 /* imgonnaworkTests.swift */,
+			);
+			path = imgonnaworkTests;
+			sourceTree = "<group>";
+		};
+		F9F63DC42C973B8000C1E278 /* imgonnaworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F63DC52C973B8000C1E278 /* imgonnaworkUITests.swift */,
+				F9F63DC72C973B8000C1E278 /* imgonnaworkUITestsLaunchTests.swift */,
+			);
+			path = imgonnaworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9F63DA32C973B7F00C1E278 /* imgonnawork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F63DCB2C973B8000C1E278 /* Build configuration list for PBXNativeTarget "imgonnawork" */;
+			buildPhases = (
+				F9F63DA02C973B7F00C1E278 /* Sources */,
+				F9F63DA12C973B7F00C1E278 /* Frameworks */,
+				F9F63DA22C973B7F00C1E278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imgonnawork;
+			productName = imgonnawork;
+			productReference = F9F63DA42C973B7F00C1E278 /* imgonnawork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9F63DB62C973B8000C1E278 /* imgonnaworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F63DCE2C973B8000C1E278 /* Build configuration list for PBXNativeTarget "imgonnaworkTests" */;
+			buildPhases = (
+				F9F63DB32C973B8000C1E278 /* Sources */,
+				F9F63DB42C973B8000C1E278 /* Frameworks */,
+				F9F63DB52C973B8000C1E278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F63DB92C973B8000C1E278 /* PBXTargetDependency */,
+			);
+			name = imgonnaworkTests;
+			productName = imgonnaworkTests;
+			productReference = F9F63DB72C973B8000C1E278 /* imgonnaworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9F63DC02C973B8000C1E278 /* imgonnaworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F63DD12C973B8000C1E278 /* Build configuration list for PBXNativeTarget "imgonnaworkUITests" */;
+			buildPhases = (
+				F9F63DBD2C973B8000C1E278 /* Sources */,
+				F9F63DBE2C973B8000C1E278 /* Frameworks */,
+				F9F63DBF2C973B8000C1E278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F63DC32C973B8000C1E278 /* PBXTargetDependency */,
+			);
+			name = imgonnaworkUITests;
+			productName = imgonnaworkUITests;
+			productReference = F9F63DC12C973B8000C1E278 /* imgonnaworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9F63D9C2C973B7F00C1E278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F9F63DA32C973B7F00C1E278 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F9F63DB62C973B8000C1E278 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F9F63DA32C973B7F00C1E278;
+					};
+					F9F63DC02C973B8000C1E278 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F9F63DA32C973B7F00C1E278;
+					};
+				};
+			};
+			buildConfigurationList = F9F63D9F2C973B7F00C1E278 /* Build configuration list for PBXProject "imgonnawork" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9F63D9B2C973B7F00C1E278;
+			productRefGroup = F9F63DA52C973B7F00C1E278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9F63DA32C973B7F00C1E278 /* imgonnawork */,
+				F9F63DB62C973B8000C1E278 /* imgonnaworkTests */,
+				F9F63DC02C973B8000C1E278 /* imgonnaworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9F63DA22C973B7F00C1E278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F63DB12C973B7F00C1E278 /* Preview Assets.xcassets in Resources */,
+				F9F63DAE2C973B7F00C1E278 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F63DB52C973B8000C1E278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F63DBF2C973B8000C1E278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F63DA02C973B7F00C1E278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F63DAA2C973B7F00C1E278 /* ContentView.swift in Sources */,
+				F9F63DAC2C973B7F00C1E278 /* Item.swift in Sources */,
+				F9F63DA82C973B7F00C1E278 /* imgonnaworkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F63DB32C973B8000C1E278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F63DBC2C973B8000C1E278 /* imgonnaworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F63DBD2C973B8000C1E278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F63DC62C973B8000C1E278 /* imgonnaworkUITests.swift in Sources */,
+				F9F63DC82C973B8000C1E278 /* imgonnaworkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9F63DB92C973B8000C1E278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F63DA32C973B7F00C1E278 /* imgonnawork */;
+			targetProxy = F9F63DB82C973B8000C1E278 /* PBXContainerItemProxy */;
+		};
+		F9F63DC32C973B8000C1E278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F63DA32C973B7F00C1E278 /* imgonnawork */;
+			targetProxy = F9F63DC22C973B8000C1E278 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F9F63DC92C973B8000C1E278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9F63DCA2C973B8000C1E278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F9F63DCC2C973B8000C1E278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = imgonnawork/imgonnawork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"imgonnawork/Preview Content\"";
+				DEVELOPMENT_TEAM = WARV3J6FDA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.zubrin.imgonnawork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F9F63DCD2C973B8000C1E278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = imgonnawork/imgonnawork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"imgonnawork/Preview Content\"";
+				DEVELOPMENT_TEAM = WARV3J6FDA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.zubrin.imgonnawork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F9F63DCF2C973B8000C1E278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WARV3J6FDA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.zubrin.imgonnaworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imgonnawork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imgonnawork";
+			};
+			name = Debug;
+		};
+		F9F63DD02C973B8000C1E278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WARV3J6FDA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.zubrin.imgonnaworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imgonnawork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imgonnawork";
+			};
+			name = Release;
+		};
+		F9F63DD22C973B8000C1E278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WARV3J6FDA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.zubrin.imgonnaworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = imgonnawork;
+			};
+			name = Debug;
+		};
+		F9F63DD32C973B8000C1E278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WARV3J6FDA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.zubrin.imgonnaworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = imgonnawork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9F63D9F2C973B7F00C1E278 /* Build configuration list for PBXProject "imgonnawork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F63DC92C973B8000C1E278 /* Debug */,
+				F9F63DCA2C973B8000C1E278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F63DCB2C973B8000C1E278 /* Build configuration list for PBXNativeTarget "imgonnawork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F63DCC2C973B8000C1E278 /* Debug */,
+				F9F63DCD2C973B8000C1E278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F63DCE2C973B8000C1E278 /* Build configuration list for PBXNativeTarget "imgonnaworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F63DCF2C973B8000C1E278 /* Debug */,
+				F9F63DD02C973B8000C1E278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F63DD12C973B8000C1E278 /* Build configuration list for PBXNativeTarget "imgonnaworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F63DD22C973B8000C1E278 /* Debug */,
+				F9F63DD32C973B8000C1E278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9F63D9C2C973B7F00C1E278 /* Project object */;
+}
